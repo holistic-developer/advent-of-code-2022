@@ -8,4 +8,6 @@ It's not much, but it's honest fun 😉
 
 Compile from typescript and execute with node
 
-```tsc 01.ts && node 01.js```
+```bash
+tsc 01.ts && node 01.js
+```
