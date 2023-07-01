@@ -6,8 +6,16 @@ It's not much, but it's honest fun 😉
 
 ## How to run?
 
-Compile from typescript and execute with node
+Run `npm install` once after checking out the project.
 
-```bash
-tsc 01.ts && node 01.js
+Compile and run the typescript files like this:
+
+```sh
+npx tsc 01.ts && node 01.js
+```
+
+or run
+
+```sh
+npm run start 01
 ```

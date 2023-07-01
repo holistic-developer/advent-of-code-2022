@@ -5,6 +5,9 @@
 	"repository": "git@github.com:holistic-developer/advent-of-code-2022.git",
 	"author": "Andreas <andreas.taranetz@dynatrace.com>",
 	"license": "MIT",
+	"scripts": {
+		"start": "func() { npx tsc \"$1\".ts && node \"$1\".js; }; func"
+	},
 	"dependencies": {
 		"typescript": "^4.9.3"
 	},
